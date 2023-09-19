@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC4E5112AB5E15300BF84E6 /* ExportKeyPointToCSVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E5102AB5E15300BF84E6 /* ExportKeyPointToCSVApp.swift */; };
+		ACC4E5132AB5E15300BF84E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E5122AB5E15300BF84E6 /* ContentView.swift */; };
+		ACC4E5152AB5E15400BF84E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4E5142AB5E15400BF84E6 /* Assets.xcassets */; };
+		ACC4E5182AB5E15400BF84E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4E5172AB5E15400BF84E6 /* Preview Assets.xcassets */; };
+		ACC4E5232AB71EA000BF84E6 /* VIsionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E5222AB71EA000BF84E6 /* VIsionManager.swift */; };
+		ACC4E52A2AB726BC00BF84E6 /* ImagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E5292AB726BC00BF84E6 /* ImagesData.swift */; };
+		ACC4E52D2AB837E400BF84E6 /* HumanBodyJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4E52C2AB837E400BF84E6 /* HumanBodyJoint.swift */; };
+		F3BEA8B6F431D3164320299B /* Pods_ExportKeyPointToCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083C24C2FC8C21A55280344F /* Pods_ExportKeyPointToCSV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		083C24C2FC8C21A55280344F /* Pods_ExportKeyPointToCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExportKeyPointToCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4E50D2AB5E15300BF84E6 /* ExportKeyPointToCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExportKeyPointToCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4E5102AB5E15300BF84E6 /* ExportKeyPointToCSVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportKeyPointToCSVApp.swift; sourceTree = "<group>"; };
+		ACC4E5122AB5E15300BF84E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC4E5142AB5E15400BF84E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC4E5172AB5E15400BF84E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC4E5192AB5E15400BF84E6 /* ExportKeyPointToCSV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExportKeyPointToCSV.entitlements; sourceTree = "<group>"; };
+		ACC4E5222AB71EA000BF84E6 /* VIsionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIsionManager.swift; path = ../../../../../../../../../Applications/VIsionManager.swift; sourceTree = "<group>"; };
+		ACC4E5292AB726BC00BF84E6 /* ImagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesData.swift; sourceTree = "<group>"; };
+		ACC4E52C2AB837E400BF84E6 /* HumanBodyJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanBodyJoint.swift; sourceTree = "<group>"; };
+		DFC5CB531C1F5B47038B8700 /* Pods-ExportKeyPointToCSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExportKeyPointToCSV.release.xcconfig"; path = "Target Support Files/Pods-ExportKeyPointToCSV/Pods-ExportKeyPointToCSV.release.xcconfig"; sourceTree = "<group>"; };
+		F5BD58417F3CACA45F4DC203 /* Pods-ExportKeyPointToCSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExportKeyPointToCSV.debug.xcconfig"; path = "Target Support Files/Pods-ExportKeyPointToCSV/Pods-ExportKeyPointToCSV.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC4E50A2AB5E15300BF84E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEA8B6F431D3164320299B /* Pods_ExportKeyPointToCSV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51674102CB7206E93583CC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083C24C2FC8C21A55280344F /* Pods_ExportKeyPointToCSV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC4E5042AB5E15300BF84E6 = {
+			isa = PBXGroup;
+			children = (
+				ACC4E50F2AB5E15300BF84E6 /* ExportKeyPointToCSV */,
+				ACC4E50E2AB5E15300BF84E6 /* Products */,
+				E50844B64D4170CB49C9DB29 /* Pods */,
+				51674102CB7206E93583CC9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC4E50E2AB5E15300BF84E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E50D2AB5E15300BF84E6 /* ExportKeyPointToCSV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC4E50F2AB5E15300BF84E6 /* ExportKeyPointToCSV */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5192AB5E15400BF84E6 /* ExportKeyPointToCSV.entitlements */,
+				ACC4E5252AB7267300BF84E6 /* BodyPoseToKeyCSV */,
+				ACC4E51F2AB71E7300BF84E6 /* Core */,
+				ACC4E5162AB5E15400BF84E6 /* Preview Content */,
+			);
+			path = ExportKeyPointToCSV;
+			sourceTree = "<group>";
+		};
+		ACC4E5162AB5E15400BF84E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5172AB5E15400BF84E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACC4E51F2AB71E7300BF84E6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E52B2AB7270D00BF84E6 /* Config */,
+				ACC4E5262AB7268400BF84E6 /* Resources */,
+				ACC4E5202AB71E7C00BF84E6 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ACC4E5202AB71E7C00BF84E6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5212AB71E8700BF84E6 /* VisionManager */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ACC4E5212AB71E8700BF84E6 /* VisionManager */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5222AB71EA000BF84E6 /* VIsionManager.swift */,
+			);
+			path = VisionManager;
+			sourceTree = "<group>";
+		};
+		ACC4E5252AB7267300BF84E6 /* BodyPoseToKeyCSV */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5282AB726A100BF84E6 /* Model */,
+				ACC4E5272AB7269800BF84E6 /* View */,
+			);
+			path = BodyPoseToKeyCSV;
+			sourceTree = "<group>";
+		};
+		ACC4E5262AB7268400BF84E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5142AB5E15400BF84E6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACC4E5272AB7269800BF84E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5122AB5E15300BF84E6 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC4E5282AB726A100BF84E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5292AB726BC00BF84E6 /* ImagesData.swift */,
+				ACC4E52C2AB837E400BF84E6 /* HumanBodyJoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC4E52B2AB7270D00BF84E6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4E5102AB5E15300BF84E6 /* ExportKeyPointToCSVApp.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E50844B64D4170CB49C9DB29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BD58417F3CACA45F4DC203 /* Pods-ExportKeyPointToCSV.debug.xcconfig */,
+				DFC5CB531C1F5B47038B8700 /* Pods-ExportKeyPointToCSV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC4E50C2AB5E15300BF84E6 /* ExportKeyPointToCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4E51C2AB5E15400BF84E6 /* Build configuration list for PBXNativeTarget "ExportKeyPointToCSV" */;
+			buildPhases = (
+				CC656657C0A63DA8C791580F /* [CP] Check Pods Manifest.lock */,
+				ACC4E5092AB5E15300BF84E6 /* Sources */,
+				ACC4E50A2AB5E15300BF84E6 /* Frameworks */,
+				ACC4E50B2AB5E15300BF84E6 /* Resources */,
+				E6184483823CE9EFB62AF158 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExportKeyPointToCSV;
+			productName = ExportKeyPointToCSV;
+			productReference = ACC4E50D2AB5E15300BF84E6 /* ExportKeyPointToCSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC4E5052AB5E15300BF84E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACC4E50C2AB5E15300BF84E6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ACC4E5082AB5E15300BF84E6 /* Build configuration list for PBXProject "ExportKeyPointToCSV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC4E5042AB5E15300BF84E6;
+			productRefGroup = ACC4E50E2AB5E15300BF84E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC4E50C2AB5E15300BF84E6 /* ExportKeyPointToCSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC4E50B2AB5E15300BF84E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4E5182AB5E15400BF84E6 /* Preview Assets.xcassets in Resources */,
+				ACC4E5152AB5E15400BF84E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC656657C0A63DA8C791580F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExportKeyPointToCSV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6184483823CE9EFB62AF158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExportKeyPointToCSV/Pods-ExportKeyPointToCSV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExportKeyPointToCSV/Pods-ExportKeyPointToCSV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExportKeyPointToCSV/Pods-ExportKeyPointToCSV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC4E5092AB5E15300BF84E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4E52D2AB837E400BF84E6 /* HumanBodyJoint.swift in Sources */,
+				ACC4E5132AB5E15300BF84E6 /* ContentView.swift in Sources */,
+				ACC4E5232AB71EA000BF84E6 /* VIsionManager.swift in Sources */,
+				ACC4E5112AB5E15300BF84E6 /* ExportKeyPointToCSVApp.swift in Sources */,
+				ACC4E52A2AB726BC00BF84E6 /* ImagesData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACC4E51A2AB5E15400BF84E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC4E51B2AB5E15400BF84E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACC4E51D2AB5E15400BF84E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BD58417F3CACA45F4DC203 /* Pods-ExportKeyPointToCSV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExportKeyPointToCSV/ExportKeyPointToCSV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExportKeyPointToCSV/Preview Content\"";
+				DEVELOPMENT_TEAM = 382VG5FRJK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.ExportKeyPointToCSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACC4E51E2AB5E15400BF84E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC5CB531C1F5B47038B8700 /* Pods-ExportKeyPointToCSV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExportKeyPointToCSV/ExportKeyPointToCSV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExportKeyPointToCSV/Preview Content\"";
+				DEVELOPMENT_TEAM = 382VG5FRJK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.ExportKeyPointToCSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC4E5082AB5E15300BF84E6 /* Build configuration list for PBXProject "ExportKeyPointToCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4E51A2AB5E15400BF84E6 /* Debug */,
+				ACC4E51B2AB5E15400BF84E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4E51C2AB5E15400BF84E6 /* Build configuration list for PBXNativeTarget "ExportKeyPointToCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4E51D2AB5E15400BF84E6 /* Debug */,
+				ACC4E51E2AB5E15400BF84E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC4E5052AB5E15300BF84E6 /* Project object */;
+}
